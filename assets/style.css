@@ -1,0 +1,54 @@
+.cryptocoin-live-ticker {
+}
+
+
+.cryptocoin-live-ticker .pairs-data {
+	display: table;
+}
+
+.cryptocoin-live-ticker .pairs-data .pair-data {
+	display: table-row;
+}
+
+.cryptocoin-live-ticker .pair-data div {
+	display: table-cell;
+	padding-left: 15px;
+	text-align: right;
+	/*font-weight: bold;*/
+}
+
+.cryptocoin-live-ticker .pair-data div:first-child {
+	padding-left: 0px;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+.cryptocoin-live-ticker .pairs-header {
+	display: table-row;
+}
+
+.cryptocoin-live-ticker .pairs-header div {
+	display: table-cell;
+	padding-left: 15px;
+	text-align: right;
+}
+.cryptocoin-live-ticker .pairs-header div:first-child {
+	padding-left: 0px;
+	text-align: left;
+}
+
+.cryptocoin-live-ticker .provided-by {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+}
+
+.cryptocoin-live-ticker .green-color {
+	color: #38B848;
+}
+
+.cryptocoin-live-ticker .red-color {
+	color: #FF6550;
+}
+
